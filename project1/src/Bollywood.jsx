@@ -113,11 +113,11 @@ function Bollywood() {
       
       return(
         <>
-        <div className="klywd">
-          <div className='sss'>
+         <Headerblwd/>
+         <div className='sss'>
             <input type="text" placeholder="Search your favourite" onChange={handleOnClick}/>
           </div>
-          <Headerblwd/>
+          <div className="klywd">
           {
            console.log(response)
            }

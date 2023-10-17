@@ -115,11 +115,11 @@ function Malayalam() {
         )
      return(
         <>
-        <div className='malylm'>
+         <Headermlylm/>
         <div className='sss'>
                 <input type="text" placeholder='Search your favourite' onChange={handleOnClick}/>
             </div>
-            <Headermlylm/>
+            <div className='malylm'>
             {
                 console.log(response)
             }

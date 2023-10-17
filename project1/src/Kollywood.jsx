@@ -118,11 +118,11 @@ useEffect (()=>{
 
 return(
   <>
-  <div className="klywd">
+    <Headertamil/>
     <div className='sss'>
       <input type="text" placeholder="Search your favourite" onChange={handleOnClick}/>
     </div>
-    <Headertamil/>
+    <div className="klywd">
     {
      console.log(response)
      }
